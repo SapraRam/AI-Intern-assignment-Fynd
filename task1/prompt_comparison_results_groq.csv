@@ -1,0 +1,4 @@
+Prompt,Accuracy (%),JSON Validity (%)
+Prompt_1_FewShot,69.17,60.0
+Prompt_2_Anchored,61.86,48.5
+Prompt_3_CoT,65.69,51.0

@@ -1,0 +1,201 @@
+prompt_name,idx,actual,predicted,explanation,json_valid,raw
+Prompt_2_Anchored,0,4,4.0,"Positive tone, praises food, drinks, service, and patio; only minor drawback is late-night emptiness.",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, praises food, drinks, service, and patio; only minor drawback is late-night emptiness.""}"
+Prompt_2_Anchored,1,5,,,False,Max retries exceeded
+Prompt_2_Anchored,2,3,,,False,Max retries exceeded
+Prompt_2_Anchored,3,1,,,False,Max retries exceeded
+Prompt_2_Anchored,4,5,,,False,Max retries exceeded
+Prompt_2_Anchored,5,4,,,False,Max retries exceeded
+Prompt_2_Anchored,6,4,,,False,Max retries exceeded
+Prompt_2_Anchored,7,4,,,False,Max retries exceeded
+Prompt_2_Anchored,8,5,,,False,Max retries exceeded
+Prompt_2_Anchored,9,1,,,False,Max retries exceeded
+Prompt_2_Anchored,10,4,4.0,"Positive tone, praised food and service, no complaints mentioned",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, praised food and service, no complaints mentioned""}"
+Prompt_2_Anchored,11,5,,,False,Max retries exceeded
+Prompt_2_Anchored,12,3,,,False,Max retries exceeded
+Prompt_2_Anchored,13,4,,,False,Max retries exceeded
+Prompt_2_Anchored,14,5,5.0,"Enthusiastic gratitude, strong recommendation to refer, no complaints",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic gratitude, strong recommendation to refer, no complaints""}"
+Prompt_2_Anchored,15,2,,,False,Max retries exceeded
+Prompt_2_Anchored,16,4,,,False,Max retries exceeded
+Prompt_2_Anchored,17,4,4.0,"Positive tone, helpful tip about the petite burger option, no complaints mentioned",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, helpful tip about the petite burger option, no complaints mentioned""}"
+Prompt_2_Anchored,18,5,5.0,Enthusiastic praise with exclamation marks and 'awesome' indicates top-tier satisfaction,True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise with exclamation marks and 'awesome' indicates top-tier satisfaction""}"
+Prompt_2_Anchored,19,5,,,False,Max retries exceeded
+Prompt_2_Anchored,20,5,,,False,Max retries exceeded
+Prompt_2_Anchored,21,5,,,False,Max retries exceeded
+Prompt_2_Anchored,22,1,,,False,Max retries exceeded
+Prompt_2_Anchored,23,4,,,False,Max retries exceeded
+Prompt_2_Anchored,24,4,,,False,Max retries exceeded
+Prompt_2_Anchored,25,4,,,False,Max retries exceeded
+Prompt_2_Anchored,26,1,2.0,Single complaint about high prices indicates disappointment but lacks broader anger or praise.,True,"{""predicted_stars"": 2, ""explanation"": ""Single complaint about high prices indicates disappointment but lacks broader anger or praise.""}"
+Prompt_2_Anchored,27,4,,,False,Max retries exceeded
+Prompt_2_Anchored,28,2,2.0,"Disappointed tone, multiple complaints (broken equipment, odd staff, high prices), only mild positives (short lines, nice garden).",True,"{""predicted_stars"": 2, ""explanation"": ""Disappointed tone, multiple complaints (broken equipment, odd staff, high prices), only mild positives (short lines, nice garden).""}"
+Prompt_2_Anchored,29,2,,,False,Max retries exceeded
+Prompt_2_Anchored,30,1,,,False,Max retries exceeded
+Prompt_2_Anchored,31,1,,,False,Max retries exceeded
+Prompt_2_Anchored,32,3,4.0,"Overall positive tone, praises the pork and sauce, minor critique of slaw, explicitly states will return",True,"{""predicted_stars"": 4, ""explanation"": ""Overall positive tone, praises the pork and sauce, minor critique of slaw, explicitly states will return""}"
+Prompt_2_Anchored,33,4,,,False,Max retries exceeded
+Prompt_2_Anchored,34,5,,,False,Max retries exceeded
+Prompt_2_Anchored,35,5,5.0,"Enthusiastic praise, strong recommendation to friends/family, no complaints",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, strong recommendation to friends/family, no complaints""}"
+Prompt_2_Anchored,36,5,5.0,"Enthusiastic praise with phrases like 'simply the best', 'perfect', and strong wish to return indicate a 5-star experience.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise with phrases like 'simply the best', 'perfect', and strong wish to return indicate a 5-star experience.""}"
+Prompt_2_Anchored,37,5,,,False,Max retries exceeded
+Prompt_2_Anchored,38,4,4.0,"Overall positive with praise for food quality and specific recommendations, only minor complaint about ordering style and coleslaw",True,"{""predicted_stars"": 4, ""explanation"": ""Overall positive with praise for food quality and specific recommendations, only minor complaint about ordering style and coleslaw""}"
+Prompt_2_Anchored,39,2,1.0,Strong negative sentiment with 'wasted' and 'never again' indicating a terrible experience,True,"{""predicted_stars"": 1, ""explanation"": ""Strong negative sentiment with 'wasted' and 'never again' indicating a terrible experience""}"
+Prompt_2_Anchored,40,3,2.0,"Disappointed tone, repeated comparisons favoring other restaurants, ""decidedly mediocre,"" ""way overpriced,"" no enthusiasm—only minor praise for pasta and service.",True,"{""predicted_stars"": 2, ""explanation"": ""Disappointed tone, repeated comparisons favoring other restaurants, \""decidedly mediocre,\"" \""way overpriced,\"" no enthusiasm—only minor praise for pasta and service.""}"
+Prompt_2_Anchored,41,1,2.0,"Disappointed long-time customer; praises service but slams food quality, value, and seating—classic 2-star tone.",True,"{""predicted_stars"": 2, ""explanation"": ""Disappointed long-time customer; praises service but slams food quality, value, and seating—classic 2-star tone.""}"
+Prompt_2_Anchored,42,1,1.0,"The review is filled with strong negative sentiment, describing the venue as creepy, comparing it to a predator sting, criticizing the drinks as tasting like cleaning solution, and suggesting only underage or problematic people would enjoy it.",True,"{""predicted_stars"": 1, ""explanation"": ""The review is filled with strong negative sentiment, describing the venue as creepy, comparing it to a predator sting, criticizing the drinks as tasting like cleaning solution, and suggesting only underage or problematic people would enjoy it.""}"
+Prompt_2_Anchored,43,3,3.0,"Mixed sentiment: beautiful views and adventure praised, but also confusion and getting lost, no clear praise or complaint about facilities/services",True,"{""predicted_stars"": 3, ""explanation"": ""Mixed sentiment: beautiful views and adventure praised, but also confusion and getting lost, no clear praise or complaint about facilities/services""}"
+Prompt_2_Anchored,44,4,5.0,"Enthusiastic praise for food, service, and atmosphere with strong recommendation despite noting high prices",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise for food, service, and atmosphere with strong recommendation despite noting high prices""}"
+Prompt_2_Anchored,45,4,5.0,"Enthusiastic praise: ""food rocks"", ""best bargain"", ""so good"", ""love"" the curries, friendly staff, bargain prices, strong recommendation for spice lovers",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise: \""food rocks\"", \""best bargain\"", \""so good\"", \""love\"" the curries, friendly staff, bargain prices, strong recommendation for spice lovers""}"
+Prompt_2_Anchored,46,4,4.0,"Positive tone, praises store organization and staff, appreciates selection and coupons, only minor complaint about some high prices, ends with intent to return",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, praises store organization and staff, appreciates selection and coupons, only minor complaint about some high prices, ends with intent to return""}"
+Prompt_2_Anchored,47,5,5.0,"Enthusiastic praise: ""ABSOLUTE BEST CRAB SALAD"", ""fresh, clean, sweet, crisp"", ""Go there...Eat there...you will like it""—strong recommendation with no negatives.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise: \""ABSOLUTE BEST CRAB SALAD\"", \""fresh, clean, sweet, crisp\"", \""Go there...Eat there...you will like it\""—strong recommendation with no negatives.""}"
+Prompt_2_Anchored,48,4,4.0,"Very positive tone, praised food quality and portions, only minor complaint about interior ambiance",True,"{""predicted_stars"": 4, ""explanation"": ""Very positive tone, praised food quality and portions, only minor complaint about interior ambiance""}"
+Prompt_2_Anchored,49,1,1.0,"Extremely angry tone, multiple exclamation marks, explicit 'WORST TAXI SERVICE EVER', and blames company for costing them $250—clear 1-star anger.",True,"{""predicted_stars"": 1, ""explanation"": ""Extremely angry tone, multiple exclamation marks, explicit 'WORST TAXI SERVICE EVER', and blames company for costing them $250—clear 1-star anger.""}"
+Prompt_2_Anchored,50,1,1.0,"Strongly negative: calls food ""truly awful,"" ""bad,"" ""greasy,"" and says ""it's just not worth it"" after multiple failed attempts.",True,"{""predicted_stars"": 1, ""explanation"": ""Strongly negative: calls food \""truly awful,\"" \""bad,\"" \""greasy,\"" and says \""it's just not worth it\"" after multiple failed attempts.""}"
+Prompt_2_Anchored,51,3,3.0,"Neutral tone, calls it ""okay"" and ""not the best"", but prefers it over Denny's",True,"{""predicted_stars"": 3, ""explanation"": ""Neutral tone, calls it \""okay\"" and \""not the best\"", but prefers it over Denny's""}"
+Prompt_2_Anchored,52,4,5.0,"Enthusiastic tone, repeated praise for unique atmosphere, wildlife interaction, and good food; no complaints.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic tone, repeated praise for unique atmosphere, wildlife interaction, and good food; no complaints.""}"
+Prompt_2_Anchored,53,4,4.0,"Positive overall with minor drawbacks (shabby decor), loyal repeat customer, praises food and service.",True,"{""predicted_stars"": 4, ""explanation"": ""Positive overall with minor drawbacks (shabby decor), loyal repeat customer, praises food and service.""}"
+Prompt_2_Anchored,54,4,4.0,"Overall positive tone, praises beer variety and service, only minor food critique, enthusiastic about beer education and recommendations",True,"{""predicted_stars"": 4, ""explanation"": ""Overall positive tone, praises beer variety and service, only minor food critique, enthusiastic about beer education and recommendations""}"
+Prompt_2_Anchored,55,3,3.0,"Mixed sentiment: loves layout and view but turned off by prices and drink selection, unsure about returning",True,"{""predicted_stars"": 3, ""explanation"": ""Mixed sentiment: loves layout and view but turned off by prices and drink selection, unsure about returning""}"
+Prompt_2_Anchored,56,5,5.0,"Enthusiastic praise throughout: 'melted in my mouth', 'so worth it', 'definitely go back', 'great' repeated multiple times, ends with strong recommendation 'GO!'",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise throughout: 'melted in my mouth', 'so worth it', 'definitely go back', 'great' repeated multiple times, ends with strong recommendation 'GO!'""}"
+Prompt_2_Anchored,57,5,5.0,"Enthusiastic praise, 'in love', 'super delicious', 'can't wait to go back'",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, 'in love', 'super delicious', 'can't wait to go back'""}"
+Prompt_2_Anchored,58,5,5.0,"Enthusiastic praise, ""never been disappointed"", ""excellent service"", strong recommendation",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, \""never been disappointed\"", \""excellent service\"", strong recommendation""}"
+Prompt_2_Anchored,59,1,2.0,"Clearly disappointed, highlights multiple negatives (higher price, smaller portions, poor service, bad tea) and explicitly states they now prefer other places.",True,"{""predicted_stars"": 2, ""explanation"": ""Clearly disappointed, highlights multiple negatives (higher price, smaller portions, poor service, bad tea) and explicitly states they now prefer other places.""}"
+Prompt_2_Anchored,60,2,,,False,Max retries exceeded
+Prompt_2_Anchored,61,2,,,False,Max retries exceeded
+Prompt_2_Anchored,62,4,,,False,Max retries exceeded
+Prompt_2_Anchored,63,3,,,False,Max retries exceeded
+Prompt_2_Anchored,64,4,,,False,Max retries exceeded
+Prompt_2_Anchored,65,2,,,False,Max retries exceeded
+Prompt_2_Anchored,66,5,,,False,Max retries exceeded
+Prompt_2_Anchored,67,5,,,False,Max retries exceeded
+Prompt_2_Anchored,68,2,,,False,Max retries exceeded
+Prompt_2_Anchored,69,4,,,False,Max retries exceeded
+Prompt_2_Anchored,70,3,3.0,"Mixed tone: praises the veggie sandwich but complains about slow service and crowds, balanced pros/cons",True,"{""predicted_stars"": 3, ""explanation"": ""Mixed tone: praises the veggie sandwich but complains about slow service and crowds, balanced pros/cons""}"
+Prompt_2_Anchored,71,2,,,False,Max retries exceeded
+Prompt_2_Anchored,72,5,,,False,Max retries exceeded
+Prompt_2_Anchored,73,4,,,False,Max retries exceeded
+Prompt_2_Anchored,74,3,,,False,Max retries exceeded
+Prompt_2_Anchored,75,5,,,False,Max retries exceeded
+Prompt_2_Anchored,76,2,2.0,"Strong complaint about double billing and only tolerating the place due to convenience, indicating clear disappointment.",True,"{""predicted_stars"": 2, ""explanation"": ""Strong complaint about double billing and only tolerating the place due to convenience, indicating clear disappointment.""}"
+Prompt_2_Anchored,77,5,5.0,Enthusiastic praise with 'love love' and 'amazing' indicating top-tier satisfaction.,True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise with 'love love' and 'amazing' indicating top-tier satisfaction.""}"
+Prompt_2_Anchored,78,3,,,False,Max retries exceeded
+Prompt_2_Anchored,79,5,,,False,Max retries exceeded
+Prompt_2_Anchored,80,4,5.0,"Enthusiastic praise with words like 'Yum!', 'delicious', 'wonderful', and 'divine' indicating an excellent experience.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise with words like 'Yum!', 'delicious', 'wonderful', and 'divine' indicating an excellent experience.""}"
+Prompt_2_Anchored,81,4,,,False,Max retries exceeded
+Prompt_2_Anchored,82,4,,,False,Max retries exceeded
+Prompt_2_Anchored,83,4,,,False,Max retries exceeded
+Prompt_2_Anchored,84,4,,,False,Max retries exceeded
+Prompt_2_Anchored,85,5,4.0,"Overall positive experience with minor complaint about a few dogs/owners, but enthusiasm for park amenities and outcome outweighs the gripe.",True,"{""predicted_stars"": 4, ""explanation"": ""Overall positive experience with minor complaint about a few dogs/owners, but enthusiasm for park amenities and outcome outweighs the gripe.""}"
+Prompt_2_Anchored,86,5,5.0,"Enthusiastic praise, calls it 'the best barber shop I've ever been to' and shows strong loyalty with 'hard time looking elsewhere'",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, calls it 'the best barber shop I've ever been to' and shows strong loyalty with 'hard time looking elsewhere'""}"
+Prompt_2_Anchored,87,4,,,False,Max retries exceeded
+Prompt_2_Anchored,88,4,4.0,"Positive tone with nostalgic praise, but lacks the superlatives or enthusiasm typical of 5-star reviews.",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone with nostalgic praise, but lacks the superlatives or enthusiasm typical of 5-star reviews.""}"
+Prompt_2_Anchored,89,3,,,False,Max retries exceeded
+Prompt_2_Anchored,90,4,,,False,Max retries exceeded
+Prompt_2_Anchored,91,3,,,False,Max retries exceeded
+Prompt_2_Anchored,92,3,2.0,Dismissing the place as just a fancier chain implies disappointment and low expectations met.,True,"{""predicted_stars"": 2, ""explanation"": ""Dismissing the place as just a fancier chain implies disappointment and low expectations met.""}"
+Prompt_2_Anchored,93,5,,,False,Max retries exceeded
+Prompt_2_Anchored,94,4,,,False,Max retries exceeded
+Prompt_2_Anchored,95,5,,,False,Max retries exceeded
+Prompt_2_Anchored,96,4,,,False,Max retries exceeded
+Prompt_2_Anchored,97,4,4.0,"Positive tone, praises cleanliness and stock, only minor wait-time comment",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, praises cleanliness and stock, only minor wait-time comment""}"
+Prompt_2_Anchored,98,4,,,False,Max retries exceeded
+Prompt_2_Anchored,99,2,2.0,"Disappointed tone, complains about high price, calls it a ""fool parting with his money"", only gives two stars",True,"{""predicted_stars"": 2, ""explanation"": ""Disappointed tone, complains about high price, calls it a \""fool parting with his money\"", only gives two stars""}"
+Prompt_2_Anchored,100,4,4.0,"Overall very positive with praise for atmosphere, beer, wine, and most food items; only minor complaint about cheese selection and loud music.",True,"{""predicted_stars"": 4, ""explanation"": ""Overall very positive with praise for atmosphere, beer, wine, and most food items; only minor complaint about cheese selection and loud music.""}"
+Prompt_2_Anchored,101,5,5.0,"Enthusiastic praise, calls it ""the new mecca"", ""beautiful"", ""best place in the city"", and urges it to thrive—clear 5-star excitement.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, calls it \""the new mecca\"", \""beautiful\"", \""best place in the city\"", and urges it to thrive—clear 5-star excitement.""}"
+Prompt_2_Anchored,102,4,5.0,"Enthusiastic praise throughout—'really nice', 'great food', 'simply amazing'—with no negatives mentioned and a strong recommendation to visit.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise throughout—'really nice', 'great food', 'simply amazing'—with no negatives mentioned and a strong recommendation to visit.""}"
+Prompt_2_Anchored,103,4,3.0,"Mixed feelings: enjoyed some dishes, found others disappointing, overall neutral tone",True,"{""predicted_stars"": 3, ""explanation"": ""Mixed feelings: enjoyed some dishes, found others disappointing, overall neutral tone""}"
+Prompt_2_Anchored,104,2,2.0,"Disappointed long-time customer, praises food but emphasizes repeated rude service and now refuses to return or recommend.",True,"{""predicted_stars"": 2, ""explanation"": ""Disappointed long-time customer, praises food but emphasizes repeated rude service and now refuses to return or recommend.""}"
+Prompt_2_Anchored,105,3,3.0,"Mixed feelings: praises staff and anime deals, but major complaint about losing D&D selection",True,"{""predicted_stars"": 3, ""explanation"": ""Mixed feelings: praises staff and anime deals, but major complaint about losing D&D selection""}"
+Prompt_2_Anchored,106,1,1.0,"Extremely negative language, insults other patrons, calls food mediocre and wine dishwater, says it keeps 'shit eaters' away from better places—clear 1-star anger.",True,"{""predicted_stars"": 1, ""explanation"": ""Extremely negative language, insults other patrons, calls food mediocre and wine dishwater, says it keeps 'shit eaters' away from better places—clear 1-star anger.""}"
+Prompt_2_Anchored,107,2,2.0,"Disappointed tone, complaints about hidden delivery charge and poor communication, says it's ""probably the last time we order""",True,"{""predicted_stars"": 2, ""explanation"": ""Disappointed tone, complaints about hidden delivery charge and poor communication, says it's \""probably the last time we order\""""}"
+Prompt_2_Anchored,108,5,5.0,"Enthusiastic praise ('Love this place', 'great little find') with no complaints.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise ('Love this place', 'great little find') with no complaints.""}"
+Prompt_2_Anchored,109,5,5.0,"Enthusiastic praise ('wowed all of us', 'Damn that was good!', 'all really good') and strong recommendation with no complaints.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise ('wowed all of us', 'Damn that was good!', 'all really good') and strong recommendation with no complaints.""}"
+Prompt_2_Anchored,110,4,5.0,"Enthusiastic praise throughout—calls it a ""go-to"" spot, ""love"" the bread, declares the entrée combo ""a match made in heaven,"" and only minor quibbles about frozen butter and lack of ranch.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise throughout—calls it a \""go-to\"" spot, \""love\"" the bread, declares the entrée combo \""a match made in heaven,\"" and only minor quibbles about frozen butter and lack of ranch.""}"
+Prompt_2_Anchored,111,4,5.0,"Enthusiastic praise with words like 'delightfully good', 'great', and 'pretty fantastic' indicating a top-tier experience.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise with words like 'delightfully good', 'great', and 'pretty fantastic' indicating a top-tier experience.""}"
+Prompt_2_Anchored,112,4,5.0,"Enthusiastic praise for unique inventory, convenience of online ordering, and excitement about classes—no negatives mentioned.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise for unique inventory, convenience of online ordering, and excitement about classes—no negatives mentioned.""}"
+Prompt_2_Anchored,113,3,4.0,"Overall positive with praise for food quality and value, only minor complaint about hummus portion and inconsistent service",True,"{""predicted_stars"": 4, ""explanation"": ""Overall positive with praise for food quality and value, only minor complaint about hummus portion and inconsistent service""}"
+Prompt_2_Anchored,114,5,5.0,"Enthusiastic praise, calls it a favorite, highlights value and fun atmosphere",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, calls it a favorite, highlights value and fun atmosphere""}"
+Prompt_2_Anchored,115,4,5.0,"Enthusiastic praise for authentic NY style pizza, friendly staff, great selection, and clever tip to skip theater concessions",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise for authentic NY style pizza, friendly staff, great selection, and clever tip to skip theater concessions""}"
+Prompt_2_Anchored,116,3,3.0,"Mixed/neutral tone: multiple ""meh"" comments balanced by some positives like layout, nice bouncers, and willingness to return.",True,"{""predicted_stars"": 3, ""explanation"": ""Mixed/neutral tone: multiple \""meh\"" comments balanced by some positives like layout, nice bouncers, and willingness to return.""}"
+Prompt_2_Anchored,117,1,2.0,"Clearly disappointed—only the location is praised while food, service, and value are repeatedly criticized, fitting a 2-star ""below expectations"" rating.",True,"{""predicted_stars"": 2, ""explanation"": ""Clearly disappointed—only the location is praised while food, service, and value are repeatedly criticized, fitting a 2-star \""below expectations\"" rating.""}"
+Prompt_2_Anchored,118,5,5.0,"Enthusiastic praise ('LOVE love LOVE'), long-term loyalty, favorite drinks, and glowing service description indicate a 5-star review.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise ('LOVE love LOVE'), long-term loyalty, favorite drinks, and glowing service description indicate a 5-star review.""}"
+Prompt_2_Anchored,119,3,4.0,"Positive tone, praises taste, price, speed, and portion size; only minor complaint about missing veggies",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, praises taste, price, speed, and portion size; only minor complaint about missing veggies""}"
+Prompt_2_Anchored,120,1,1.0,Strongly negative with multiple complaints and 'never again' statement.,True,"{""predicted_stars"": 1, ""explanation"": ""Strongly negative with multiple complaints and 'never again' statement.""}"
+Prompt_2_Anchored,121,5,5.0,"Enthusiastic praise, 'Amazing', 'best around', strong recommendation",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, 'Amazing', 'best around', strong recommendation""}"
+Prompt_2_Anchored,122,4,,,False,Max retries exceeded
+Prompt_2_Anchored,123,4,,,False,Max retries exceeded
+Prompt_2_Anchored,124,4,5.0,"Enthusiastic praise with ""great"" and ""best around"" indicates top-tier satisfaction.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise with \""great\"" and \""best around\"" indicates top-tier satisfaction.""}"
+Prompt_2_Anchored,125,4,,,False,Max retries exceeded
+Prompt_2_Anchored,126,4,,,False,Max retries exceeded
+Prompt_2_Anchored,127,4,,,False,Max retries exceeded
+Prompt_2_Anchored,128,5,,,False,Max retries exceeded
+Prompt_2_Anchored,129,4,,,False,Max retries exceeded
+Prompt_2_Anchored,130,3,,,False,Max retries exceeded
+Prompt_2_Anchored,131,4,,,False,Max retries exceeded
+Prompt_2_Anchored,132,3,,,False,Max retries exceeded
+Prompt_2_Anchored,133,4,,,False,Max retries exceeded
+Prompt_2_Anchored,134,5,,,False,Max retries exceeded
+Prompt_2_Anchored,135,5,5.0,"Enthusiastic praise throughout: ""fantastic,"" ""superior service,"" ""gorgeous decor,"" ""definitely make it a point to come here again,"" plus only a tiny butter quibble that doesn’t dampen the overall rave.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise throughout: \""fantastic,\"" \""superior service,\"" \""gorgeous decor,\"" \""definitely make it a point to come here again,\"" plus only a tiny butter quibble that doesn’t dampen the overall rave.""}"
+Prompt_2_Anchored,136,4,4.0,"Overall positive experience with good food and great brunch, only minor complaint about dinner flavor and service attitude",True,"{""predicted_stars"": 4, ""explanation"": ""Overall positive experience with good food and great brunch, only minor complaint about dinner flavor and service attitude""}"
+Prompt_2_Anchored,137,3,4.0,"Positive tone, calls it a ""nice little local fave"" and ""great place"", only minor caveat that it's not for out-of-towners.",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, calls it a \""nice little local fave\"" and \""great place\"", only minor caveat that it's not for out-of-towners.""}"
+Prompt_2_Anchored,138,4,,,False,Max retries exceeded
+Prompt_2_Anchored,139,4,,,False,Max retries exceeded
+Prompt_2_Anchored,140,1,,,False,Max retries exceeded
+Prompt_2_Anchored,141,5,,,False,Max retries exceeded
+Prompt_2_Anchored,142,4,,,False,Max retries exceeded
+Prompt_2_Anchored,143,4,4.0,"Clearly positive with praise for food and recommendation, only minor note about wine being just ""ok""",True,"{""predicted_stars"": 4, ""explanation"": ""Clearly positive with praise for food and recommendation, only minor note about wine being just \""ok\""""}"
+Prompt_2_Anchored,144,3,,,False,Max retries exceeded
+Prompt_2_Anchored,145,5,,,False,Max retries exceeded
+Prompt_2_Anchored,146,5,,,False,Max retries exceeded
+Prompt_2_Anchored,147,4,,,False,Max retries exceeded
+Prompt_2_Anchored,148,4,,,False,Max retries exceeded
+Prompt_2_Anchored,149,3,,,False,Max retries exceeded
+Prompt_2_Anchored,150,4,,,False,Max retries exceeded
+Prompt_2_Anchored,151,5,,,False,Max retries exceeded
+Prompt_2_Anchored,152,5,,,False,Max retries exceeded
+Prompt_2_Anchored,153,4,3.0,"Mixed experience: two dishes average, one standout, overall okay",True,"{""predicted_stars"": 3, ""explanation"": ""Mixed experience: two dishes average, one standout, overall okay""}"
+Prompt_2_Anchored,154,2,,,False,Max retries exceeded
+Prompt_2_Anchored,155,5,,,False,Max retries exceeded
+Prompt_2_Anchored,156,4,5.0,"Enthusiastic praise for food, atmosphere, and specific dishes with playful tone",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise for food, atmosphere, and specific dishes with playful tone""}"
+Prompt_2_Anchored,157,1,1.0,"Angry tone, 'disgusting', 'very outdated', 'pretty bad', 'no flavor', accuses owners of fake reviews",True,"{""predicted_stars"": 1, ""explanation"": ""Angry tone, 'disgusting', 'very outdated', 'pretty bad', 'no flavor', accuses owners of fake reviews""}"
+Prompt_2_Anchored,158,2,,,False,Max retries exceeded
+Prompt_2_Anchored,159,3,,,False,Max retries exceeded
+Prompt_2_Anchored,160,4,5.0,"Enthusiastic praise with words like 'outstanding', 'fabulous', and 'exception' indicate a top-tier experience.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise with words like 'outstanding', 'fabulous', and 'exception' indicate a top-tier experience.""}"
+Prompt_2_Anchored,161,2,1.0,"Angry tone, calls station 'bermuda triangle', describes multiple breakdowns, refusal of help, overall terrible experience",True,"{""predicted_stars"": 1, ""explanation"": ""Angry tone, calls station 'bermuda triangle', describes multiple breakdowns, refusal of help, overall terrible experience""}"
+Prompt_2_Anchored,162,1,2.0,Clearly disappointed with poor service and only okay food; no extreme anger but strong dissatisfaction and 'won't be back',True,"{""predicted_stars"": 2, ""explanation"": ""Clearly disappointed with poor service and only okay food; no extreme anger but strong dissatisfaction and 'won't be back'""}"
+Prompt_2_Anchored,163,4,5.0,"Enthusiastic praise, ""delicious"", ""everyone left happy"", strong recommendation vibe",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, \""delicious\"", \""everyone left happy\"", strong recommendation vibe""}"
+Prompt_2_Anchored,164,4,4.0,"Clearly positive with praise for drinks, food, and atmosphere; only minor note is not being a fan of the soccer club, keeping it from perfect 5.",True,"{""predicted_stars"": 4, ""explanation"": ""Clearly positive with praise for drinks, food, and atmosphere; only minor note is not being a fan of the soccer club, keeping it from perfect 5.""}"
+Prompt_2_Anchored,165,5,5.0,"Enthusiastic praise: 'perfect meal', 'amazing', 'highlight of our trip', strong recommendation to locals and intent to return from Chicago.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise: 'perfect meal', 'amazing', 'highlight of our trip', strong recommendation to locals and intent to return from Chicago.""}"
+Prompt_2_Anchored,166,4,5.0,"Enthusiastic praise for freshness and calling it ""number one sub place"" indicates an excellent experience.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise for freshness and calling it \""number one sub place\"" indicates an excellent experience.""}"
+Prompt_2_Anchored,167,4,4.0,"Positive tone, ongoing satisfaction over a year, only minor note on heat level",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, ongoing satisfaction over a year, only minor note on heat level""}"
+Prompt_2_Anchored,168,4,4.0,"Overall very positive with praise for value, staff, restaurant, and makeover effort; only minor complaint about unfinished room updates.",True,"{""predicted_stars"": 4, ""explanation"": ""Overall very positive with praise for value, staff, restaurant, and makeover effort; only minor complaint about unfinished room updates.""}"
+Prompt_2_Anchored,169,4,3.0,"Mixed: loves the chain and liked the ambiance/service setup, but soup was slow, unappetizing, room too warm, and check came prematurely—pros and cons balance out to average.",True,"{""predicted_stars"": 3, ""explanation"": ""Mixed: loves the chain and liked the ambiance/service setup, but soup was slow, unappetizing, room too warm, and check came prematurely—pros and cons balance out to average.""}"
+Prompt_2_Anchored,170,3,4.0,"Positive tone, highlights fun for kids, no complaints mentioned",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, highlights fun for kids, no complaints mentioned""}"
+Prompt_2_Anchored,171,3,3.0,"Mixed tone: appreciates the concept and beer selection, but notes off-putting smells, heavy furniture, and odd music choices—overall ""okay"" rather than enthusiastic or upset.",True,"{""predicted_stars"": 3, ""explanation"": ""Mixed tone: appreciates the concept and beer selection, but notes off-putting smells, heavy furniture, and odd music choices—overall \""okay\"" rather than enthusiastic or upset.""}"
+Prompt_2_Anchored,172,4,4.0,"Overall positive experience with great food and pleasant surprise, only minor complaint about decor and one unruly patron",True,"{""predicted_stars"": 4, ""explanation"": ""Overall positive experience with great food and pleasant surprise, only minor complaint about decor and one unruly patron""}"
+Prompt_2_Anchored,173,5,5.0,"Enthusiastic praise ('indescribably cool', 'genius', 'not to be missed') outweighs minor concern about disrepair.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise ('indescribably cool', 'genius', 'not to be missed') outweighs minor concern about disrepair.""}"
+Prompt_2_Anchored,174,5,5.0,"Enthusiastic praise, exceeded expectations, strong recommendation to return",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, exceeded expectations, strong recommendation to return""}"
+Prompt_2_Anchored,175,4,4.0,"Overall positive tone, enthusiastic about food and ambiance, only minor service complaint",True,"{""predicted_stars"": 4, ""explanation"": ""Overall positive tone, enthusiastic about food and ambiance, only minor service complaint""}"
+Prompt_2_Anchored,176,3,2.0,"Disappointed tone, complains about high prices, calls food just ""ok""",True,"{""predicted_stars"": 2, ""explanation"": ""Disappointed tone, complains about high prices, calls food just \""ok\""""}"
+Prompt_2_Anchored,177,1,1.0,"Extremely negative experience, employee ignored customer, vows never to return, calls service ""sub par""",True,"{""predicted_stars"": 1, ""explanation"": ""Extremely negative experience, employee ignored customer, vows never to return, calls service \""sub par\""""}"
+Prompt_2_Anchored,178,3,4.0,"Overwhelmingly positive tone with enthusiastic praise for food, ambiance, and uniqueness; only minor complaint about sweetness and price.",True,"{""predicted_stars"": 4, ""explanation"": ""Overwhelmingly positive tone with enthusiastic praise for food, ambiance, and uniqueness; only minor complaint about sweetness and price.""}"
+Prompt_2_Anchored,179,4,4.0,"Positive tone, enjoyed the food and atmosphere, only minor enthusiasm gap from 5-star level",True,"{""predicted_stars"": 4, ""explanation"": ""Positive tone, enjoyed the food and atmosphere, only minor enthusiasm gap from 5-star level""}"
+Prompt_2_Anchored,180,3,5.0,All positive points with enthusiastic tone and no complaints,True,"{""predicted_stars"": 5, ""explanation"": ""All positive points with enthusiastic tone and no complaints""}"
+Prompt_2_Anchored,181,5,5.0,"Enthusiastic praise throughout: ""top notch"", ""amazing prices"", ""really love this place"", ""will not look for another"", ""best ever"" tone.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise throughout: \""top notch\"", \""amazing prices\"", \""really love this place\"", \""will not look for another\"", \""best ever\"" tone.""}"
+Prompt_2_Anchored,182,5,,,False,Max retries exceeded
+Prompt_2_Anchored,183,5,,,False,Max retries exceeded
+Prompt_2_Anchored,184,4,,,False,Max retries exceeded
+Prompt_2_Anchored,185,2,,,False,Max retries exceeded
+Prompt_2_Anchored,186,4,5.0,"Enthusiastic praise for drinks, food, atmosphere, and people; only a minor complaint about another patron that doesn't dampen the overall excitement.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise for drinks, food, atmosphere, and people; only a minor complaint about another patron that doesn't dampen the overall excitement.""}"
+Prompt_2_Anchored,187,3,,,False,Max retries exceeded
+Prompt_2_Anchored,188,5,,,False,Max retries exceeded
+Prompt_2_Anchored,189,5,,,False,Max retries exceeded
+Prompt_2_Anchored,190,3,,,False,Max retries exceeded
+Prompt_2_Anchored,191,4,,,False,Max retries exceeded
+Prompt_2_Anchored,192,5,,,False,Max retries exceeded
+Prompt_2_Anchored,193,3,,,False,Max retries exceeded
+Prompt_2_Anchored,194,5,5.0,"Enthusiastic praise ('Love this place!', 'Fantastic drinks and goodies!!') with no negatives.",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise ('Love this place!', 'Fantastic drinks and goodies!!') with no negatives.""}"
+Prompt_2_Anchored,195,4,,,False,Max retries exceeded
+Prompt_2_Anchored,196,4,,,False,Max retries exceeded
+Prompt_2_Anchored,197,3,,,False,Max retries exceeded
+Prompt_2_Anchored,198,4,5.0,"Enthusiastic praise, no complaints, strong recommendation to return",True,"{""predicted_stars"": 5, ""explanation"": ""Enthusiastic praise, no complaints, strong recommendation to return""}"
+Prompt_2_Anchored,199,5,,,False,Max retries exceeded
