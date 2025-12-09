@@ -6,8 +6,7 @@ A modern dual-dashboard application for collecting customer feedback, generating
 
 | Dashboard | URL |
 |-----------|-----|
-| **User Feedback Form** | [https://ai-feedback-dash.vercel.app](https://ai-feedback-dash.vercel.app) |
-| **Admin Console** | [https://ai-feedback-dash.vercel.app/admin](https://ai-feedback-dash.vercel.app/admin) 
+| **User Feedback Form** | [https://aidashboard-theta.vercel.app/](https://aidashboard-theta.vercel.app/) |
 
 ## ✨ Features
 
