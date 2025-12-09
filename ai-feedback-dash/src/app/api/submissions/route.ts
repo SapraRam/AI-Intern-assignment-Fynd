@@ -48,7 +48,18 @@ export async function POST(request: Request) {
       );
     }
 
-    const insights = await generateSubmissionInsights(rating, review);
+    let insights;
+    try {
+      insights = await generateSubmissionInsights(rating, review);
+    } catch (aiError) {
+      console.error("AI Error:", aiError);
+      // Fallback response if AI fails
+      insights = {
+        aiResponse: `Thank you for your ${rating}-star review!`,
+        summary: `Customer feedback: ${review.slice(0, 100)}`,
+        actions: ["Review feedback", "Follow up with customer"],
+      };
+    }
 
     const submission: Submission = {
       id: generateId(),
@@ -67,9 +78,9 @@ export async function POST(request: Request) {
       headers: { "Cache-Control": "no-store" },
     });
   } catch (error) {
-    console.error("Failed to store submission", error);
+    console.error("POST Error:", error);
     return NextResponse.json(
-      { message: "Internal server error" },
+      { message: error instanceof Error ? error.message : "Internal server error" },
       { status: 500 },
     );
   }
