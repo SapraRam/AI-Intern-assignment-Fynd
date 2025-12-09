@@ -1,23 +1,49 @@
 import { Submission } from "@/types/submission";
+import { getCollection } from './mongodb';
 
-// In-memory storage for Vercel serverless deployment
-// Data resets on cold starts - this is expected behavior
-// Last updated: 2025-12-09 - Force rebuild v3
-const submissions: Submission[] = [];
+const SUBMISSIONS_COLLECTION = 'submissions';
 
 export async function readSubmissions(): Promise<Submission[]> {
-  console.log("[Storage] Reading submissions, count:", submissions.length);
-  return [...submissions];
+  try {
+    const collection = await getCollection<Submission>(SUBMISSIONS_COLLECTION);
+    const submissions = await collection
+      .find({})
+      .sort({ createdAt: -1 })
+      .toArray();
+    
+    console.log(`[MongoDB] Fetched ${submissions.length} submissions`);
+    return submissions;
+  } catch (error) {
+    console.error('[MongoDB] Error reading submissions:', error);
+    return [];
+  }
 }
 
 export async function saveSubmissions(newSubmissions: Submission[]) {
-  console.log("[Storage] Saving submissions, count:", newSubmissions.length);
-  submissions.length = 0;
-  submissions.push(...newSubmissions);
+  try {
+    const collection = await getCollection<Submission>(SUBMISSIONS_COLLECTION);
+    // Clear existing submissions
+    await collection.deleteMany({});
+    
+    if (newSubmissions.length > 0) {
+      await collection.insertMany(newSubmissions);
+    }
+    
+    console.log(`[MongoDB] Saved ${newSubmissions.length} submissions`);
+  } catch (error) {
+    console.error('[MongoDB] Error saving submissions:', error);
+    throw error;
+  }
 }
 
 export async function appendSubmission(submission: Submission) {
-  console.log("[Storage] Appending submission:", submission.id);
-  submissions.unshift(submission);
-  return submission;
+  try {
+    const collection = await getCollection<Submission>(SUBMISSIONS_COLLECTION);
+    const result = await collection.insertOne(submission);
+    console.log(`[MongoDB] Inserted submission with id: ${result.insertedId}`);
+    return submission;
+  } catch (error) {
+    console.error('[MongoDB] Error appending submission:', error);
+    throw error;
+  }
 }
