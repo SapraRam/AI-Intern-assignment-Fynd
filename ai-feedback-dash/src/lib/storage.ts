@@ -2,7 +2,7 @@ import { Submission } from "@/types/submission";
 
 // In-memory storage for Vercel serverless deployment
 // Data resets on cold starts - this is expected behavior
-// Last updated: 2024-12-09 - Force rebuild v2
+// Last updated: 2025-12-09 - Force rebuild v3
 const submissions: Submission[] = [];
 
 export async function readSubmissions(): Promise<Submission[]> {
