@@ -1,4 +1,4 @@
-import { MongoClient, MongoClientOptions, Collection } from 'mongodb';
+import { MongoClient, MongoClientOptions, Collection, Document } from 'mongodb';
 
 const uri = process.env.MONGODB_URI;
 const options: MongoClientOptions = {};
@@ -36,7 +36,7 @@ function getClientPromise(): Promise<MongoClient> {
   return clientPromise;
 }
 
-export async function getCollection<T>(collectionName: string): Promise<Collection<T>> {
+export async function getCollection<T extends Document>(collectionName: string): Promise<Collection<T>> {
   try {
     const client = await getClientPromise();
     return client.db('ai-feedback-db').collection<T>(collectionName);

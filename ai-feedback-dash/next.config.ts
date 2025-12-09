@@ -10,11 +10,11 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  serverExternalPackages: ['mongodb'],
   experimental: {
     serverActions: {
       bodySizeLimit: '2mb',
     },
-    serverComponentsExternalPackages: ['mongodb'],
   },
 };
 
