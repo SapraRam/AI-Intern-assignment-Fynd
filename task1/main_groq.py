@@ -214,20 +214,6 @@ async def process_batch(tasks, batch_size=60):
     return results
 
 if __name__ == "__main__":
-    print("=" * 60)
-    print("YELP REVIEW RATING PREDICTION - GROQ (OPTIMIZED)")
-    print("=" * 60)
-    print(f"\nDataset: {len(df)} reviews")
-    print(f"Prompts: {len(prompts)}")
-    print(f"Total requests: {len(df) * len(prompts)}")
-    print("\nOptimizations:")
-    print("✓ Using moonshotai/kimi-k2-instruct (60 RPM - 2x faster!)")
-    print("✓ Async requests for maximum throughput")
-    print("✓ 3 different prompting approaches")
-    print("✓ Batch processing with smart rate limiting")
-    print("-" * 60)
-    
-    start_time = time.time()
     all_results = {}
     
     # Prepare all tasks
@@ -259,10 +245,6 @@ if __name__ == "__main__":
         }
         
         result_df.to_csv(f"{prompt_name}_groq_outputs.csv", index=False)
-       
-    print("\n" + "=" * 60)
-    print("=== RESULTS ===")
-    print("=" * 60 + "\n")
     
     table = []
     for name, stats in all_results.items():
@@ -271,9 +253,6 @@ if __name__ == "__main__":
     comparison_df = pd.DataFrame(table, columns=["Prompt", "Accuracy (%)", "JSON Validity (%)"])
     print(comparison_df.to_string(index=False))
     comparison_df.to_csv("prompt_comparison_results_groq.csv", index=False)
-    
-    elapsed_time = time.time() - start_time
-    print(f"\n⏱️  Total time: {elapsed_time:.1f} seconds ({elapsed_time/60:.1f} minutes)")
     
     # Show best accuracy
     best_accuracy = max(stats["accuracy"] for stats in all_results.values())
