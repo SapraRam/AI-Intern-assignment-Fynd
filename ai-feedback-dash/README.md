@@ -7,6 +7,7 @@ A modern dual-dashboard application for collecting customer feedback, generating
 | Dashboard | URL |
 |-----------|-----|
 | **User Feedback Form** | [https://ai-intern-assignment-fynd.vercel.app/](https://ai-intern-assignment-fynd.vercel.app/) |
+| **Admin Dashboard** | [https://ai-intern-assignment-fynd.vercel.app/admin](https://ai-intern-assignment-fynd.vercel.app/admin) |
 
 ## ✨ Features
 
