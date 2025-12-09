@@ -1,14 +1,32 @@
-import { randomUUID } from "node:crypto";
 import { NextResponse } from "next/server";
 import { appendSubmission, readSubmissions } from "@/lib/storage";
 import { generateSubmissionInsights } from "@/lib/ai";
 import { Submission } from "@/types/submission";
 
-export async function GET() {
-  const submissions = await readSubmissions();
-  return NextResponse.json(submissions, {
-    headers: { "Cache-Control": "no-store" },
+// Force Node.js runtime (not Edge)
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+function generateId(): string {
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+    const r = (Math.random() * 16) | 0;
+    const v = c === "x" ? r : (r & 0x3) | 0x8;
+    return v.toString(16);
   });
+}
+
+export async function GET() {
+  try {
+    const submissions = await readSubmissions();
+    return NextResponse.json(submissions, {
+      headers: { "Cache-Control": "no-store" },
+    });
+  } catch (error) {
+    console.error("Failed to read submissions", error);
+    return NextResponse.json([], {
+      headers: { "Cache-Control": "no-store" },
+    });
+  }
 }
 
 export async function POST(request: Request) {
@@ -33,7 +51,7 @@ export async function POST(request: Request) {
     const insights = await generateSubmissionInsights(rating, review);
 
     const submission: Submission = {
-      id: randomUUID(),
+      id: generateId(),
       rating,
       review,
       aiResponse: insights.aiResponse,
